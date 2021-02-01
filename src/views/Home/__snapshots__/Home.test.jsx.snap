@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home - views should match snapshot 1`] = `
+<Fragment>
+  <SubHeader
+    breadcrumb={
+      Array [
+        Object {
+          "text": "Home",
+        },
+      ]
+    }
+    heading="Somos front-end Challenge"
+  />
+  <div
+    className="wrapper"
+  >
+    <h1>
+      Escute seu artista preferido!
+    </h1>
+    <Link
+      replace={false}
+      to="/busca"
+    >
+      Buscar Artista
+    </Link>
+  </div>
+</Fragment>
+`;

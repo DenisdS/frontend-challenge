@@ -12,7 +12,7 @@ class Busca extends React.Component {
       <React.Fragment>
         <SubHeader
           breadcrumb={[{ text: 'Busca' }]}
-          heading="Busque seu artista"
+          heading="Aqui você encontra todas as tribos"
         />
         <div className={styles.wrapper}>
           <h1>Buscar artista</h1>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom'
+import { Link , Router} from 'react-router-dom'
 
 import { SubHeader } from 'components'
 import { SomosClient } from 'utils'
@@ -19,7 +19,9 @@ class Home extends React.Component {
         />
         <div className={styles.wrapper}>
           <h1>Escute seu artista preferido!</h1>
-          <Link to="/busca">Buscar Artista</Link>
+
+            <Link to="/busca">Buscar Artista</Link>
+
         </div>
       </React.Fragment>
     )
