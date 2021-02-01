@@ -1,12 +1,12 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 import { SubHeader } from 'components'
 import { SomosClient } from 'utils'
 
 import styles from './Home.module.css'
-
 class Home extends React.Component {
-  state = {}
 
   client = new SomosClient()
 
@@ -15,10 +15,11 @@ class Home extends React.Component {
       <React.Fragment>
         <SubHeader
           breadcrumb={[{ text: 'Home' }]}
-          heading="Somos Front-end Challange"
+          heading="Somos front-end Challenge"
         />
         <div className={styles.wrapper}>
-          <h1>Hi</h1>
+          <h1>Escute seu artista preferido!</h1>
+          <Link to="/busca">Buscar Artista</Link>
         </div>
       </React.Fragment>
     )
